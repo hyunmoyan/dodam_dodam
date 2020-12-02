@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b1f7a190-08e3-4065-901e-4dc29c6ca7f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dodam/dodamweb/templates/spec.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dodam/insertdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/book-inside.png" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/book-inside1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/book-inside2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/book-inside2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/book-inside_대지 1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/book-inside_대지 1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/book_example.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/book_example.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/book_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/book_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bookshelf.png" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/bookshelf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/white_bookshelf1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/static/white_bookshelf1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dodam/dodamweb/templates/shelf.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/도담도담_음악.xlsx" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="b83a1363-7ede-4335-a970-4532360766a8" />
+  <component name="ProjectId" id="1kRgR2WdhIM4i4rPdW38oHNrbeo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dodam/dodamweb" />
+      <recent name="$PROJECT_DIR$/templetes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.insertdb">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/국회도서관_도담도담/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="insertdb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="국회도서관_도담도담" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dodam" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dodam/insertdb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.insertdb" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1f7a190-08e3-4065-901e-4dc29c6ca7f4" name="Default Changelist" comment="" />
+      <created>1605668806044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605668806044</updated>
+      <workItem from="1605668807178" duration="3986000" />
+      <workItem from="1606374343766" duration="3820000" />
+      <workItem from="1606380820754" duration="795000" />
+      <workItem from="1606382018953" duration="8551000" />
+      <workItem from="1606563310826" duration="8575000" />
+      <workItem from="1606659191935" duration="1854000" />
+      <workItem from="1606661263282" duration="4131000" />
+      <workItem from="1606897286241" duration="4860000" />
+      <workItem from="1606908184922" duration="6006000" />
+      <workItem from="1606918220800" duration="12145000" />
+      <workItem from="1606934080074" duration="1056000" />
+      <workItem from="1606935189571" duration="701000" />
+      <workItem from="1606936202258" duration="418000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606930686867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1606930686867" />
+    <state x="518" y="213" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606919347755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="518" y="213" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606919347755" />
+    <state x="210" y="0" key="CommitChangelistDialog2" timestamp="1606936522700">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="210" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606936522700" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606936587112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606936587112" />
+    <state x="634" y="310" key="Github.ShareDialog" timestamp="1606936573381">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="634" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1606936573381" />
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom" timestamp="1606935146654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606935146654" />
+    <state width="1493" height="148" key="GridCell.Tab.0.center" timestamp="1606935146653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606935146653" />
+    <state width="1493" height="148" key="GridCell.Tab.0.left" timestamp="1606935146653">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606935146653" />
+    <state width="1493" height="148" key="GridCell.Tab.0.right" timestamp="1606935146654">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="148" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606935146654" />
+    <state width="196" height="477" key="HiddenNamespacesPopup" timestamp="1606935260217">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="196" height="477" key="HiddenNamespacesPopup/0.0.1536.824@0.0.1536.824" timestamp="1606935260217" />
+    <state x="304" y="132" key="RollbackChangesDialog" timestamp="1606918322601">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="304" y="132" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1606918322601" />
+    <state x="169" y="40" key="SettingsEditor" timestamp="1606935896825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="141" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1606908389030" />
+    <state x="169" y="40" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606935896825" />
+    <state x="366" y="128" width="804" height="697" key="search.everywhere.popup" timestamp="1606935888253">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1606911968462" />
+    <state x="366" y="128" width="804" height="697" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606935888253" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dodamdodam$insertdb.coverage" NAME="insertdb Coverage Results" MODIFIED="1606935115227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dodam" />
+  </component>
+</project>
