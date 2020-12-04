@@ -145,7 +145,7 @@
                 $("#books-box").append(tempHtml);
             }
 
-            <!--시간 있으면 navbar에서 책 검색할 수 있도록 검색엔진 만들기.-->
+            
             function searchBook() {
 
                 $("#books-box").html('');
@@ -191,50 +191,37 @@
 
         <div id="abc">
             <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
+                <a href="{% url 'spec' %}"><img src="{{ book1 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book2 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book3 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book4 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book5 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book6 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book7 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book8 }}" class="book-item"></a>
+                <div class='shelf-item'></div>
+            </div><div class="books-box">
+                <a href="{% url 'spec' %}"><img src="{{ book9 }}" class="book-item"></a>
                 <div class='shelf-item'></div>
             </div>
-
             <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
+                <a href="{% url 'spec' %}"><img src="{{ book10 }}" class="book-item"></a>
                 <div class='shelf-item'></div>
             </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
-            <div class="books-box">
-                <a href="{% url 'spec' %}"><img class="book-item"></a>
-                <div class='shelf-item'></div>
-            </div>
-
         </div>
 
 
