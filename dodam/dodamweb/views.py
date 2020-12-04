@@ -2,6 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
 import sqlite3
+import json
 
 # Create your views here.
 def index(request):
@@ -15,6 +16,7 @@ def index(request):
 def shelf(request):
     conn = sqlite3.connect('db.sqlite3') 
     cur = conn.cursor() 
+
     cur.execute("SELECT * FROM dodamweb_book_info LIMIT 0,10") 
     rows = cur.fetchall()
     context = {
@@ -31,9 +33,20 @@ def shelf(request):
     }
     return render(request, 'shelf.html', context)
 
+def shelf1(request):
+    conn = sqlite3.connect('db.sqlite3') 
+    cur = conn.cursor() 
+
+    cur.execute("SELECT * FROM dodamweb_book_info LIMIT 0,10") 
+    rows = cur.fetchall()
+    context = {
+        'result' : 'success',
+        'books' : rows,
+    }
+    return render(request, 'shelf.html', json.dumps(context), content_type='application/json')
 
 def spec(request):
     searchWord = request.GET.get('title')
     context = {
     }
-    return render(request, 'spec.html', context)
+    return render(request, 'spec.html')

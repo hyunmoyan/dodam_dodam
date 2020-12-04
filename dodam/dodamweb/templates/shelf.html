@@ -105,25 +105,25 @@
             // 페이지로 넘어오면, 알아서 책을 띄워주는 함수 만들어서 실행시키기.
             $(document).ready(function () {
                 $("#books-box").html("");
-                showBook();
+                showBook(1);
             });
 
 
-            function showBook(title) {
+            function showBook(count) {
                 // 1. 리뷰 목록을 서버에 요청하기
-                url = `/book?title=${title}`
+                temp_url = `/shelf${count}`
 
                 $.ajax({
                     type: "GET",
-                    url: url,
+                    url: '',
                     data: {},
                     success: function (response) {
                         // 2. 요청 성공 여부 확인하기
-                        if (response["result"] == "success") {
-                            let books = response["books"];
+                        if (response.result == "success") {
+                            let book = response.books;
                             // 3. 요청 성공했을 때 리뷰를 올바르게 화면에 나타내기
-                            for (let i = 0; i < books.length; i++) {
-                                makeBook(books[i]["bookcover"]);
+                            for (let i = 0; i < book.length; i++) {
+                                makeBook(book[i][2]);
                             }
                         } else {
                             alert("리뷰를 받아오지 못했습니다");
@@ -137,12 +137,12 @@
                 let tempHtml =
                     `<div id="abc">
                     <div class ="books-box">
-                        <img class="book-item" onClick="location.href="{% url 'spec' %}" src=${url}>
+                        <img class="book-item" onClick="location.href="{% url 'spec' %}" src=${bookcover}>
                         <div class='shelf-item'></div>
                     </div>
                 </div>`
 
-                $("#books-box").append(tempHtml);
+                $("#abc").append(tempHtml);
             }
 
             
@@ -164,7 +164,7 @@
                             let books = response["books"];
                             // 3. 요청 성공했을 때 리뷰를 올바르게 화면에 나타내기
                             for (let i = 0; i < books.length; i++) {
-                                makeBook(reviews[i]["bookcover"]);
+                                makeBook(reviews[i][2]);
                             }
                         } else {
                             alert("리뷰를 받아오지 못했습니다");
@@ -190,7 +190,7 @@
 
 
         <div id="abc">
-            <div class="books-box">
+            <!-- <div class="books-box">
                 <a href="{% url 'spec' %}"><img src="{{ book1 }}" class="book-item"></a>
                 <div class='shelf-item'></div>
             </div><div class="books-box">
@@ -221,7 +221,7 @@
             <div class="books-box">
                 <a href="{% url 'spec' %}"><img src="{{ book10 }}" class="book-item"></a>
                 <div class='shelf-item'></div>
-            </div>
+            </div> -->
         </div>
 
 
